@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MP3 Player with Thumbnail</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jsmediatags/3.9.5/jsmediatags.min.js"></script>
+</head>
+<body>
+    <div class="player-container">
+        <div class="thumbnail-container">
+            <img id="currentThumbnail" src="https://via.placeholder.com/150/008000" alt="Thumbnail">
+        </div>
+        <div class="controls">
+            <input type="file" id="fileInput" accept="audio/*">
+            <audio id="audioPlayer" controls></audio>
+            <button id="playPauseBtn"><i class="fas fa-play"></i></button>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
